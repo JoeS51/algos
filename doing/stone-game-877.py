@@ -1,8 +1,4 @@
 # 877. Stone Game
-# Medium
-# Topics
-# conpanies icon
-# Companies
 # Alice and Bob play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].
 # 
 # The objective of the game is to end with the most stones. The total number of stones across all the piles is odd, so there are no ties.
@@ -35,3 +31,9 @@
 # piles.length is even.
 # 1 <= piles[i] <= 500
 # sum(piles[i]) is odd.
+
+# Potential hints:
+# - Whoever gets the majoriy first wins  > (total // 2)
+# - it is not greedy. as in taking the larger of the last two values doesnt always yield the answer
+
+
